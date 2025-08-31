@@ -54,3 +54,5 @@ Code: [here](https://github.com/handiko/Monthly-Seasonality-Trading-Strategy-Bac
 
 ## Related Project
 [Market Seasonality Chart Generator](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/README.md)
+
+---
