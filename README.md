@@ -32,3 +32,22 @@ This is where you can customize and run the backtest.
 * Execution: When the script is run, it calls the backtest_monthly_strategy function to perform the simulation. It then passes the results to the plot_returns function to create the chart. Finally, it prints the total percentage returns for both the strategy and the market to the console, providing a quick summary of the performance.
 
 In essence, this script provides a powerful and easy-to-use tool for quickly evaluating whether a simple, rule-based trading strategy would have been profitable in the past.
+
+Code: [here](https://github.com/handiko/Monthly-Seasonality-Trading-Strategy-Backtest/blob/main/JupyterNotebook/Monthly%20Seasonality%20Strategy.ipynb)
+
+---
+
+## Examples
+### Gold Contract (GC=F)
+![](./GC=F_strategy_performance.png)
+
+### IDX Composite (^JKSE)
+![](./^JKSE_strategy_performance.png)
+
+### S&P 500 (SPY)
+![](./SPY_strategy_performance.png)
+
+### Bitcoin (BTC-USD)
+![](./BTC-USD_strategy_performance.png)
+
+---
