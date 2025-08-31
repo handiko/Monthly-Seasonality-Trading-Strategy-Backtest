@@ -6,6 +6,14 @@ The script operates in three main parts: the backtesting engine, the plotting fu
 1. Backtesting Engine (backtest_monthly_strategy)
 This is the core of the script, where the trading strategy is simulated.
 * Inputs: The function requires a stock ticker (e.g., 'GC=F' for Gold Futures), a buy month, a sell month, and a start and end date for the backtest.
+  ```python
+  # User-defined parameters
+    TICKER = 'GC=F'
+    BUY_MONTH = 12  # December
+    SELL_MONTH = 4  # April
+    START_DATE = '2015-01-01'
+    END_DATE = '2025-08-31'
+  ```
 * Data Retrieval: It uses the yfinance library to download historical price data from Yahoo Finance. The script intelligently checks for 'Adj Close' (Adjusted Closing) price first, as this accounts for corporate actions like dividends and stock splits, providing a more accurate representation of returns. If that data is unavailable, it defaults to the standard 'Close' price.
 * Signal Generation: The script iterates through the historical data, identifying the first trading day of the specified buy and sell months.
   a. On the first day of the buy month, it generates a "buy" signal and enters a position.
