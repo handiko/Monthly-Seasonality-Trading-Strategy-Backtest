@@ -57,4 +57,4 @@ Code: [here](https://github.com/handiko/Monthly-Seasonality-Trading-Strategy-Bac
 
 ---
 
-Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
+Back to [Index](https://github.com/handiko/handiko/blob/master/Index.md)
